@@ -233,6 +233,40 @@ p {
     height: 100%;
 }
 
+/* home section */
+
+.c-home {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 50px;
+}
+
+.c-home p:first-child {
+    margin-bottom: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.c-home p:nth-child(2) {
+    font-family: "Tiempos Headline";
+    color: var(--secondary-theme-color);
+    font-size: 2rem;
+}
+
+.c-home div:first-child {
+    width: 35%;
+}
+
+.c-home div:last-child {
+    flex-grow: 1;
+}
+
+.c-home iframe {
+    border: 3px solid black;
+}
+
 /* --- classes (objects) --- */
 
 /* "apply now" button */
@@ -247,4 +281,12 @@ p {
 
 .o-apply-button:hover {
     opacity: 0.8;
+}
+
+/* sections */
+
+.o-section {
+    margin: 0 auto;
+    padding: 60px 0;
+    width: 80%;
 }
