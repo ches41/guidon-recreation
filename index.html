@@ -7,8 +7,9 @@
 
     <link rel="stylesheet" href="styles/main.css">
     <script src="scripts/nav.js"></script>
+    <script src="scripts/header.js"></script>
 </head>
-<body onscroll="toggleNav()">
+<body onscroll="toggleNav()" onload="setInterval(changeHeaderBG, 5000)">
     <nav class="c-nav" id="js-nav">
         <div class="c-nav__content">
             <div class="c-nav__left">
@@ -44,7 +45,12 @@
     <header class="c-header" id="js-header">
         <div class="c-header__filter">
         </div>
-        <img src="images/bg0.jpg">
+        <img class="c-header__bg" src="images/header-bg0.jpg" style="opacity: 1;">
+        <img class="c-header__bg" src="images/header-bg1.jpg">
+        <img class="c-header__bg" src="images/header-bg2.jpg">
+        <img class="c-header__bg" src="images/header-bg3.jpg">
+        <img class="c-header__bg" src="images/header-bg4.jpg">
+        <img class="c-header__bg" src="images/header-bg5.jpg">
         <div class="c-header__content">
             <h1>Stand with the Truth.</h1>
             <p>The GUIDON Intersession RecWeek 2023</p>
