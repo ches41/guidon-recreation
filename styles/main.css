@@ -87,7 +87,8 @@ p {
     left: 0;
     height: 88px;
     width: 100%;
-    background: var(--theme-color); /* transparent bg to be done through js */
+    background: none; /* transparent bg to be changed through js */
+    transition: 0.3s all;
 }
 
 .c-nav__content {
@@ -111,7 +112,7 @@ p {
 }
 
 .c-nav__right {
-    display: none; /* display: block to be done through js */
+    display: none; /* display: block to be changed through js */
 }
 
 .c-nav__logo img {

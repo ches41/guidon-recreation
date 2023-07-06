@@ -6,9 +6,10 @@
     <title>The GUIDON RecWeek 2023 (Recreation)</title>
 
     <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/nav.js"></script>
 </head>
-<body>
-    <nav class="c-nav">
+<body onscroll="toggleNav()">
+    <nav class="c-nav" id="js-nav">
         <div class="c-nav__content">
             <div class="c-nav__left">
                 <a class="c-nav__logo" href="/"><img src="images/logo.svg"></a>
@@ -35,12 +36,12 @@
                     </div>
                 </div>
             </div>
-            <div class="c-nav__right">
+            <div class="c-nav__right" id="js-nav__right">
                 <a class="o-apply-button" href="https://forms.gle/Cj675rYtUpjy26vi9" target="_blank">APPLY NOW</a>
             </div>
         </div>
     </nav>
-    <header class="c-header">
+    <header class="c-header" id="js-header">
         <div class="c-header__filter">
         </div>
         <img src="images/bg0.jpg">
